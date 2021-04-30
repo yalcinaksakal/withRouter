@@ -1,0 +1,26 @@
+.products {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.products li {
+  margin: 0.2rem 2rem;
+}
+
+.products a {
+  color: #074da9;
+  text-decoration: none;
+  border-left: 4px solid transparent;
+  padding-left: 10px;
+}
+.products a:hover,
+.products a:active {
+  color: #021a39;
+  border-left: 4px solid #021a39;
+}

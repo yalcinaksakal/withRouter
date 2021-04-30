@@ -13,6 +13,7 @@
   height: 100%;
   list-style: none;
   display: flex;
+  flex-direction: row;
   padding: 0;
   margin: 0;
   align-items: center;
@@ -35,4 +36,16 @@
   color: #95bcf0;
   padding-bottom: 0.25rem;
   border-bottom: 4px solid #95bcf0;
+}
+
+@media (max-width: 270px) {
+  .header {
+    height: 7rem;
+  }
+  .header ul {
+    flex-direction: column;
+  }
+  .header li {
+    margin: 0.3rem;
+  }
 }
